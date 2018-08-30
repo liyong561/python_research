@@ -39,6 +39,8 @@ public class RegularExpression {
         System.out.println(str6.matches("^\\d{2}"));//false
     }
 
-
-
+    public static void main(String[] args) {
+        test01();
+        test02();
+    }
 }
