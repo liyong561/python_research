@@ -49,7 +49,7 @@ public class StaticWord {
      * @param ls
      * @return
      */
-    public static List<String> sort(List<String> ls){
+    public static Map<String,Integer> sort(List<String> ls){
         Map<String,Integer> map=new HashMap<>();
         for(String str:ls){
             if(map.containsKey(str)){
@@ -61,13 +61,37 @@ public class StaticWord {
                 map.put(str,1);
             }
         }
-
-      return  null;
+        List<Map.Entry<String,Integer>> ls_sort=new ArrayList<>(); //map.Entry<String,Integer>，Entry是Map的静态内部类，
+        ls_sort.addAll(map.entrySet());
+        ls_sort.sort(  //java中可以向一个函数传入什么？java对象，然后就可以重写其中的方法，如果只有一个函数，就用lamda表达式。
+                new Comparator<Map.Entry<String, Integer>>() {
+                    @Override
+                    public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+                        return o1.getValue().compareTo(o2.getValue());  //o1.getValue().compareTo(o2.getValue()),返回正数则前者大。
+                    }
+                }
+        ); //调用对象的sort方法，只要告诉系统怎么排序就可以了。
+        Map<String,Integer> map1=new LinkedHashMap<>(); //此处不应该使用HashMap,否则输出顺序不对。
+        for (Map.Entry<String,Integer> ele:ls_sort){
+            map1.put(ele.getKey(),ele.getValue());
+        }
+      return  map1;
+    }
+    public static  List<Integer> array_sort(Integer[] array_integer){
+        Arrays.sort(array_integer);
+        //System.out.println(array_integer);
+        List<Integer> ls=Arrays.asList(array_integer);
+;       Collections.sort(ls);  //默认是升序。
+        System.out.println(ls);
+        return  ls;
     }
 
     public static void main(String[] args) {
+        array_sort(new Integer[]{1,23,5,9});
         List<String> ls=split(read("E:/TestFile/a.txt"));
         System.out.println(ls);
+        Map<String,Integer> map=sort(ls);
+        System.out.println(map);
 
     }
 }
