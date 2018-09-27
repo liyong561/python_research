@@ -1,8 +1,11 @@
 package utilTest;
 
+import java.util.regex.Pattern;
+
 public class RegularExpression {
     public static  void test01(){
         String regex="^d{4}";
+        Pattern pattern = Pattern.compile("^[-\\+]?[\\d]*$"); //匹配整数，\\在java要转义
     }
     public static  void test02(){
         //最简单的使用string的match和replace函数。Pattern和Match类
@@ -12,14 +15,14 @@ public class RegularExpression {
         System.out.println(str.matches(regex));
 
         //匹配固定电话  4位区号-7位号码 或者 3位区号-8位号码
-        String regex2="^\\d{4}-\\d{7}|\\d{3}-\\d{8}$";
+        String regex2="^\\d{4}-\\d{7}|\\d{3}-\\d{8}$";  //右斜线在java的字符串中有特殊的意义。
         String str2="020-13222113";
         String str3="0532-9989211";
         System.out.println(str2.matches(regex2));
         System.out.println(str3.matches(regex2));
 
         //匹配除了a和9之外的数字或字符
-        String regex3="^[^9a]{1,}$";
+        String regex3="^[^9a]{1,}$";//^在括号里面和括号里面的差别。
         String str4="1234fsfse";
         String str5="a2343";
         System.out.println(str4.matches(regex3));
