@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4859b228-ffbc-4993-b848-011c43735d3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Leetcode/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/Leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/src/main/java/leetcode/BigInteger01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/leetcode/BigInteger01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/leetcode/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/leetcode/LeetcodeProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/leetcode/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/leetcode/Recursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/leetcode/RecursiveArrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/leetcode/ShiftTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/leetcode/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/utilTest/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/utilTest/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_test/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_test/win_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/ImageSpider/.idea/ImageSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/ImageSpider/.idea/ImageSpider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/ImageSpider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/ImageSpider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/ImageSpider/ImageSpider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/ImageSpider/ImageSpider/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/ImageSpider/ImageSpider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/ImageSpider/ImageSpider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/ImageSpider/ImageSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/ImageSpider/ImageSpider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/ImageSpider/ImageSpider/spiders/ImgSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/ImageSpider/ImageSpider/spiders/ImgSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/liyong/enum_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/liyong/enum_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/liyong/map_reduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/liyong/map_reduce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/util/csv_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/util/csv_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/util/pandas_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/util/pandas_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/util/yield_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/util/yield_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/util01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/util01/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/learnPython/util01/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/learnPython/util01/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/.idea/source.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/calculation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/cmd_run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/connect_database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/data_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/define_function_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/enum_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/func_use_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/image_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/map_reduce.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/mixln.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/net_urllib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/object_orented2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/object_orentied.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/regular_expression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/requests_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/special_attribute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/split_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/liyong/test_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/util/csv_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/util/db_xiaohuar01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/util/numpy_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/util/pandas_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/source/util01/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/.idea/taobao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/.idea/taobao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/read_documents/VersioningAndAPIStability" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/read_documents/VersioningAndAPIStability" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/read_documents/release-note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/read_documents/release-note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/spiders/agrs_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/spiders/agrs_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/spiders/item_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/spiders/item_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/spiders/jd_dianziyan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/spiders/jd_dianziyan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/taobao/spiders/taobao_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/taobao/spiders/taobao_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/taobao/汉语编码测试.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/taobao/汉语编码测试.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/test03.html" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/test03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/spiders/xiaohuar_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/spiders/xiaohuar_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/test01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/test01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/test02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/test02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/test04.html" beforeDir="false" afterPath="$PROJECT_DIR$/../python_demo/xiaohuar/xiaohuar/test04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TestStandardEdition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TestStandardEdition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/main/java/utilTest/GeneralMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/utilTest/GeneralMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/main/java/utilTest/NumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/utilTest/NumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/target/classes/utilTest/DateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/target/classes/utilTest/GeneralMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/target/classes/utilTest/GeneralMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/target/classes/utilTest/MedianTwoSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/target/classes/utilTest/NumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/target/classes/utilTest/RegularExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/target/classes/utilTest/StaticWord$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/target/classes/utilTest/StaticWord.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-500481095">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="217" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="217" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/input_test/test01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/pymouse/windows.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input_test/win_function.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/input_test/test01.py" />
+        <option value="$PROJECT_DIR$/input_test/win_function.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="87" />
+    <option name="y" value="50" />
+    <option name="width" value="991" />
+    <option name="height" value="779" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="win_io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="win_io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="win_io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="win_io" type="462c0819:PsiDirectoryNode" />
+              <item name="input_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="win_io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="win_io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/input_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/input_test/test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4859b228-ffbc-4993-b848-011c43735d3e" name="Default Changelist" comment="" />
+      <created>1540388360949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540388360949</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="87" y="50" width="991" height="779" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34974357" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3933934" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/input_test/win_function.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/pymouse/windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input_test/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
