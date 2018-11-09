@@ -44,8 +44,6 @@ class Affine:
 		dx=np.dot(dout,self.w.T)
 		self.dw=np.dot(self.x.T,dout) #要返回的导数
 		self.db=np.sum(dout,axis=0)
-		print(dout)
-		print("dx01")
 		return dx #why return this?
 class ReLu:
 	def __init__(self):

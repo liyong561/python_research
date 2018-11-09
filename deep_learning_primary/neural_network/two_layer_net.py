@@ -45,8 +45,8 @@ class TwoLayerNet:
 		layers.reverse()
 		for layer in layers:
 			dout=layer.backward(dout)
-			print(dout)
-			print("dout")
+			#print(dout)
+			#print("dout")
 		grads={}
 		grads['w1']=self.layers['Affine1'].dw
 		# print(grads['w1']其梯度值为零

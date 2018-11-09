@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-x=np.arange(0,6,0.1)
+x=np.arange(0,6,0.1)  # 使用numpy的arange函数，而不是range，
 y=np.sin(x)
  # plt.plot(x,y)  
  #  plt.show() just a x-y graph,no other information
@@ -14,5 +14,6 @@ plt.plot(x,y3,linestyle="--",label="cos")
 plt.title("sin & cos")
 plt.legend() # combine the label
 plt.show()
-
+x_axis = range(len(y1))
+plt.plot(x_axis,y1,y2)
  
