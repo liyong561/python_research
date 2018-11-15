@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6154775-19a5-47ad-9242-b4ac3d9183c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deep_learning_primary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep_learning_primary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.spyproject/workspace.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.spyproject/workspace.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liyong_begin/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/liyong_begin/plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/BPmnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/BPmnist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/affine.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/affine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/two_layer_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/two_layer_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liyong_begin/scrapy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/liyong_begin/scrapy_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural_network/minst_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/minst_batch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +57,11 @@
     <session id="-257734445">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neural_network/multi_layer_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="648">
               <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
@@ -107,7 +103,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neural_network/multi_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
+            <state relative-caret-position="648">
               <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#48#66#0" expanded="true" />
@@ -128,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="134" />
     <option name="y" value="40" />
     <option name="width" value="1386" />
@@ -140,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,10 +157,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/专业学习资料/deep_learning" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -248,7 +244,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="40" width="1386" height="919" extended-state="0" />
+    <frame x="134" y="40" width="1386" height="919" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17591241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -294,7 +291,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neural_network/multi_layer_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="648">
           <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
@@ -304,7 +301,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neural_network/multi_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="648">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#48#66#0" expanded="true" />

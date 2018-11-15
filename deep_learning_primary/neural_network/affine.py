@@ -13,8 +13,13 @@ def softmax(x):
 	z=np.exp(y)/np.sum(np.exp(y),axis=0) #让人有点晕
 	return z.T
 def cross_entropy_error(y,t):
+	# 还要考虑t不是one-hot数据 
+	if y.ndim ==1: #一般情况下y.ndim ==2
+		t=t.reshape(1,t.size)
+		y=y.reshape(1,y.size)
 	batch_size=t.shape[0]
-	return -np.sum(t*np.log(y+1e-7))/batch_size
+	# 
+	return -np.sum(np.log(y[np.arange(batch_size),t]+1e-7))/batch_size
 def process():
 	(images_train,labels_train),(images_test,labels_test) = mnist.load_data()
 	# images_train.astype(np.float32),对象本身不会变
@@ -33,9 +38,13 @@ class Affine:
 		self.w=w
 		self.b=b
 		self.x=None
+		self.origin_x_shape=None
 		self.db=None  #其导数，要输出的
 		self.dw=None
-	def forward(self,x): #x没有被初始化
+	def forward(self,x): #x没有被初始化，更改成能处理4维张量的
+		# print(x.shape),传递的shape变成了1d
+		self.origin_x_shape =x.shape
+		x = x.reshape(x.shape[0],-1) # 将其变形
 		self.x=x
 		out=np.dot(x,self.w)+self.b # 和java的差别，对象变量都要带上self,b not def
 		return out
@@ -44,11 +53,13 @@ class Affine:
 		dx=np.dot(dout,self.w.T)
 		self.dw=np.dot(self.x.T,dout) #要返回的导数
 		self.db=np.sum(dout,axis=0)
+		dx = dx.reshape(*self.origin_x_shape)
 		return dx #why return this?
 class ReLu:
 	def __init__(self):
 		self.mask=None
 	def forward(self,x):
+		# 逐元素运算，对与任意维的张量都是可以的。
 		self.mask=(x<=0)
 		out=x.copy()
 		out[self.mask]=0
@@ -69,8 +80,11 @@ class SoftmaxWithLoss:
 		return self.loss # 想想为什么返回loss
 	def backward(self,dout=1):
 		batch_size=self.t.shape[0]
-		# print(self.y.size)
-		# print(self.t.size) 都是1000
-		dx=(self.y-self.t)/batch_size
+		if self.t.size ==self.y.size:
+			dx = (self.y -self.t)/batch_size # 提高代码的健壮性
+		else:  # 返回不是onehot的数据
+			dx = self.y.copy()
+			dx[np.arange(batch_size),self.t] -=1  
+			dx =dx /batch_size
 		return dx 
 		
