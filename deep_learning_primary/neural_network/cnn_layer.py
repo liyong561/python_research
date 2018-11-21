@@ -50,6 +50,7 @@ class Convelution:
 		self.dW =None
 		self.db =None
 	def forward(self,x):
+		#  没看到激活函数在这里发挥作用啊？
 		self.x =x
 		N,C,H,W = x.shape
 		# self.N,self.C,H,Width = X.shape,这样随意设置实例变量非常不是编码习惯

@@ -4,6 +4,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 from cnn_layer import Convelution
+import pickle
 
 def test():
 	im= np.array(Image.open(r'E:\Data\Images\Person\zhanghan01.png'))
@@ -35,4 +36,44 @@ def test01():
 	im = Image.fromarray(np.uint8(im_cnn))  #im_cnn中的元素有的是float等类型，同意转换为unit8类型
 	# plt.imshow(im_cnn)  #这个图片完全没有格式，可能是W是任选的，且其像素值的范围范围可能不对，但是读取函数进行了规范。
 	im.save(r'E:\Data\Images\Architecture\chongqing_finance03.jpg')
-test01()
+	
+def display_w():
+	with open('w1_file.pkl','rb') as f:
+		w =pickle.load(f)
+	N,C,H,W = w.shape
+	w = w.transpose(1,0,2,3).reshape(N,H,W)
+	w = np.uint8(256*w)
+	for i  in range(w.shape[0]):
+		plt.subplot(5,6,i+1)
+		plt.imshow(w[i],cmap= plt.cm.binary)  #非黑即
+	plt.show()
+
+def w_convelution():
+	with open('w1_file.pkl','rb') as f:
+		w = pickle.load(f)
+	FN,FC,FH,FW= w.shape
+	w = w[5]
+	w = w.reshape(1,FC,FH,FW)
+	b =np.zeros(1)
+	cnn = Convelution(w,b)
+	
+	im = np.array(Image.open(r'E:\Data\Images\Architecture\chongqing_finance01.jpg'))
+	H,W =im.shape
+	im =im.reshape(1,H,W)
+	im =im.reshape(1,H,W,1).transpose(0,3,1,2)
+	
+	im_cnn = cnn.forward(im) #经过一层卷积运算
+	print(im_cnn.shape)
+	N,FN,OH,OW = im_cnn.shape
+	im_cnn =im_cnn.reshape(OH,OW)
+	im_cnn = np.uint8(im_cnn)
+	im = im.reshape(H,W)
+	
+	plt.subplot(1,2,1)
+	plt.imshow(im)
+	plt.subplot(1,2,2)
+	plt.imshow(im_cnn)
+	plt.show()
+
+
+w_convelution()

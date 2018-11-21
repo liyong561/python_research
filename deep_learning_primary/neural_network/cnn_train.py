@@ -3,6 +3,7 @@
 from keras.datasets import mnist
 from simple_conv_net import SimpleConvNet
 import  matplotlib.pyplot as plot 
+import pickle
 
 (image_train,label_train),(image_test,label_test) = mnist.load_data() 
 # image_trian.shape=(6000,28,28)，要给数据增加一个维度
@@ -36,6 +37,10 @@ for i in range(iter_num):
 		#print(key,network.params[key].shape,grads[key].shape)
 	acc = network.accuracy(x,t)
 	accuracy_list.append(acc)
+# 训练完之后将得到的参数持久化
+with open('w1_file.pkl','wb') as f:
+	# 取出时不用名字，按顺序取就可以了
+	pickle.dump(network.params['W1'],f)
 plot.plot(range(len(accuracy_list)),accuracy_list)
 plot.show()
 print(accuracy_list[50:])
