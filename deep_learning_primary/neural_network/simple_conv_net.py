@@ -28,13 +28,14 @@ class SimpleConvNet:
 		self.params['b2'] = np.zeros(hidden_size)
 		self.params['W3'] = weight_init*np.random.rand(hidden_size,output_size)
 		self.params['b3'] = np.zeros(output_size)
-		# |一个卷积层，两个全连接层
+		#  一个卷积层，两个全连接层
 		self.layers = OrderedDict()
 		self.layers['Conv1'] = cnn.Convelution(self.params['W1'],self.params['b1'],
 			 conv_param['stride'],conv_param['pad'])
-		self.layers['Relu1']=affine.ReLu()
+		self.layers['Relu1']=affine.ReLu()    # 有时候把这个归结为卷积层，在模型中要指定激活函数，自动做好。
 		self.layers['Pool1'] = cnn.Pooling(pool_h=2,pool_w =2,stride =2) # 单独定制
 		self.layers['Affine1'] = affine.Affine(self.params['W2'],self.params['b2'])
+		#  全连接层也要有激活函数层。
 		self.layers['Relu2'] = affine.ReLu()
 		self.layers['Affine2']= affine.Affine(self.params['W3'],self.params['b3'])
 		self.last_layer =affine.SoftmaxWithLoss() # 该层用于计算损失函数

@@ -32,5 +32,6 @@ def test03():
 	print(im.shape)  # 一维
 	plt.imshow(im)
 	plt.show()
-	
-test03()
+
+if '__name__' =='__main__':
+	test03()
