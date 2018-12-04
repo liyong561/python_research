@@ -44,7 +44,7 @@ def conv():
     model.add(layers.MaxPool2D(2, 2))
     # 把多维向量拉平的类，自己多动脑经，印象深刻.
     model.add(layers.Flatten())
-    model.add(layers.Dense(512, activation='relu'))
+    model.add(layers.Dense(256, activation='relu'))
     model.add(layers.Dense(1, activation='sigmoid'))
     #  有了框架后，搭建这个网络就是这么快。
     return model
@@ -62,19 +62,19 @@ def train():
     train_data_gen = train_data.flow_from_directory(
         train_dir,
         target_size=(150, 150),
-        batch_size=20,
+        batch_size=40,
         class_mode='binary'
     )
     test_data_gen = test_data.flow_from_directory(
         test_dir,
         target_size=(150, 150),
-        batch_size=20,
+        batch_size=40,
         class_mode='binary'
     )
     model = conv()  # 我只是给这个网络加入了一些信息，在调用方法还是框架的
     #  指定网络的优化器，损失函数等。
-    model.compile(optimizer=optimizers.RMSprop(lr=1e-4), loss='binary_crossentropy', metrics=['acc'])
-    history = model.fit_generator(train_data_gen, steps_per_epoch=250, epochs=50, validation_data=test_data_gen,
+    model.compile(optimizer=optimizers.RMSprop(lr=1e-3), loss='binary_crossentropy', metrics=['acc'])
+    history = model.fit_generator(train_data_gen, steps_per_epoch=240, epochs=10, validation_data=test_data_gen,
                                   validation_steps=50)  # validation_steps是什么意思？
 
     print(history.history['acc'])

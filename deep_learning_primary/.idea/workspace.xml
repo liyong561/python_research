@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6154775-19a5-47ad-9242-b4ac3d9183c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn_tensorflow/conv_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn_tensorflow/dog_and_cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn_tensorflow/multi_output.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.spyproject/workspace.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.spyproject/workspace.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_tensorflow/keras_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_tensorflow/keras_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liyong_begin/convelution_pooling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liyong_begin/image_convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/liyong_begin/image_convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liyong_begin/image_show.py" beforeDir="false" afterPath="$PROJECT_DIR$/liyong_begin/image_show.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liyong_begin/os_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/liyong_begin/os_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liyong_begin/pkl_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/affine.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/affine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/cnn_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/cnn_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/minst_batch_trian.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/minst_batch_trian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/multi_layer_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/multi_layer_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/simple_conv_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/simple_conv_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_tensorflow/dog_and_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_tensorflow/dog_and_cat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_image/pil_rw.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_image/pil_rw.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,123 +60,62 @@
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="52" />
+          <entry key="pkl" value="1" />
+          <entry key="py" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="52" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="843" />
-          <entry key="py" value="7475" />
+          <entry key="py" value="9965" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="8318" />
+          <entry key="Python" value="10808" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learn_tensorflow/dog_and_cat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1542867695336" expanded="true" signature="265:270" ph="..." />
-                <marker date="1542867695336" expanded="true" signature="977:982" ph="..." />
-                <marker date="1542867695336" expanded="true" signature="977:1640" ph="..." />
-                <marker date="1542867695336" expanded="true" signature="1697:1702" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn_tensorflow/conv_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <marker date="1542890187068" expanded="true" signature="277:282" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liyong_begin/loss_function.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liyong_begin/test.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_image/display_image.py">
+        <entry file="file://$PROJECT_DIR$/liyong_begin/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="324">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_image/pil_rw.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liyong_begin/image_show.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural_network/minst_batch_trian.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural_network/BPmnist_train.py">
+        <entry file="file://$PROJECT_DIR$/neural_network/two_layer_net.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -199,13 +126,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/keras/backend/__init__.py">
+        <entry file="file://$PROJECT_DIR$/neural_network/simple_net.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_image/pil_rw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1926">
-              <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+            <state relative-caret-position="756">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#24#45#0" expanded="true" />
+                <marker date="1543234263870" expanded="true" signature="925:927" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liyong_begin/os_test.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neural_network/visulize.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neural_network/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learn_tensorflow/visualize_layer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liyong_begin/image_convert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -231,22 +200,23 @@
         <option value="$PROJECT_DIR$/neural_network/cnn_layer.py" />
         <option value="$PROJECT_DIR$/neural_network/simple_conv_net.py" />
         <option value="$PROJECT_DIR$/learn_tensorflow/keras_test.py" />
-        <option value="$PROJECT_DIR$/learn_tensorflow/dog_and_cat.py" />
         <option value="$PROJECT_DIR$/neural_network/cnn_train.py" />
         <option value="$PROJECT_DIR$/neural_network/minst_batch_trian.py" />
         <option value="$PROJECT_DIR$/neural_network/multi_layer_net.py" />
         <option value="$PROJECT_DIR$/neural_network/affine.py" />
         <option value="$PROJECT_DIR$/learn_tensorflow/conv_base.py" />
         <option value="$PROJECT_DIR$/liyong_begin/image_convert.py" />
+        <option value="$PROJECT_DIR$/learn_tensorflow/multi_output.py" />
+        <option value="$PROJECT_DIR$/learn_tensorflow/dog_and_cat.py" />
         <option value="$PROJECT_DIR$/python_image/pil_rw.py" />
+        <option value="$PROJECT_DIR$/learn_tensorflow/visualize_layer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="811" />
-    <option name="y" value="72" />
-    <option name="width" value="1030" />
-    <option name="height" value="735" />
+    <option name="x" value="-7" />
+    <option name="width" value="1115" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,6 +251,16 @@
               <item name="deep_learning_primary" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep_learning_primary" type="462c0819:PsiDirectoryNode" />
               <item name="python_image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_primary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_primary" type="462c0819:PsiDirectoryNode" />
+              <item name="statistic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_primary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_primary" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="deep_learning_primary" type="b2602c69:ProjectViewProjectNode" />
@@ -358,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dog_and_cat">
+  <component name="RunManager" selected="Python.visualize_layer">
     <configuration name="conv_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_primary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -422,7 +402,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="keras_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pil_rw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep_learning_primary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_image" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_image/pil_rw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualize_layer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_primary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -434,28 +435,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_tensorflow/keras_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep_learning_primary" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liyong_begin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liyong_begin/mnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_tensorflow/visualize_layer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -465,19 +445,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mnist" />
-      <item itemvalue="Python.keras_test" />
       <item itemvalue="Python.dog_and_cat" />
       <item itemvalue="Python.conv_base" />
       <item itemvalue="Python.image_convert" />
+      <item itemvalue="Python.visualize_layer" />
+      <item itemvalue="Python.pil_rw" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.visualize_layer" />
+        <item itemvalue="Python.pil_rw" />
         <item itemvalue="Python.dog_and_cat" />
         <item itemvalue="Python.image_convert" />
         <item itemvalue="Python.conv_base" />
-        <item itemvalue="Python.keras_test" />
-        <item itemvalue="Python.mnist" />
       </list>
     </recent_temporary>
   </component>
@@ -503,15 +483,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="811" y="72" width="1030" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1115" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30473372" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19472247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42604503" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34154177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,12 +513,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="uu" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.spyproject/encoding.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.spyproject/codestyle.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/neural_network/BPmnist.py" />
     <entry file="file://$PROJECT_DIR$/.spyproject/vcs.ini">
       <provider selected="true" editor-type-id="text-editor" />
@@ -627,22 +601,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liyong_begin/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/neural_network/simple_conv_net.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural_network/simple_net.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/keras/preprocessing/image.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,24 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn_tensorflow/keras_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1542805917658" expanded="true" signature="135:140" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/neural_network/multi_layer_net.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,80 +668,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#51#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural_network/minst_batch_trian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural_network/BPmnist_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/keras/backend/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1926">
-          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_tensorflow/conv_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
+        <state relative-caret-position="450">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1542890187068" expanded="true" signature="277:282" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liyong_begin/image_show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liyong_begin/loss_function.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liyong_begin/image_convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural_network/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,28 +683,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_image/display_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="576">
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_image/pil_rw.py">
+    <entry file="file://$PROJECT_DIR$/neural_network/minst_batch_trian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="252">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_network/BPmnist_train.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/keras/backend/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1926">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_tensorflow/multi_output.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_tensorflow/keras_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_tensorflow/dog_and_cat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="293">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liyong_begin/image_show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_network/w1_file.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liyong_begin/loss_function.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liyong_begin/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_network/two_layer_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1542867695336" expanded="true" signature="265:270" ph="..." />
-            <marker date="1542867695336" expanded="true" signature="977:982" ph="..." />
-            <marker date="1542867695336" expanded="true" signature="977:1640" ph="..." />
-            <marker date="1542867695336" expanded="true" signature="1697:1702" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_network/simple_net.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_image/pil_rw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+            <marker date="1543234263870" expanded="true" signature="925:927" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liyong_begin/os_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_network/visulize.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_network/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liyong_begin/image_convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_tensorflow/visualize_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

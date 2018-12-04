@@ -2,7 +2,7 @@
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
-from os import path
+import os
 
 def test01():
 	file_path= r'E:\Data\Images\Architecture\yunnan.jpeg'
@@ -33,5 +33,17 @@ def test03():
 	plt.imshow(im)
 	plt.show()
 
-if '__name__' =='__main__':
-	test03()
+
+def figure_display():
+	#  python的基本功，对python1的各个模块的理解
+	#  file_path= os.path(r'E:\Data\Images\Person')
+	file_fold= r'E:\Data\Images\Person'
+	file_list =os.listdir(file_fold)
+	file_path =[]
+	for file in file_list:
+		file_path.append(os.path.join(file_fold, file))
+	figure = plt.figure()  # figure的属性为默认的，而不是没有
+
+
+
+figure_display()
