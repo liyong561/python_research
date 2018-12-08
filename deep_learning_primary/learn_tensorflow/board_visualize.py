@@ -14,10 +14,10 @@ def test_board():
 
     with tf.Session() as sess:
 
-
         writer = tf.summary.FileWriter('logs/', sess.graph)  # 这句话到底干了什么，我们不得而知
         result = sess.run([add, mul])
         print(result)
+        writer.flush()
         '''
         tf.summary.FileWriter函数必须在global_variables_initializer().run()
         函数之前调用，在重命名tensor对象之后调用。
