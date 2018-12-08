@@ -1,5 +1,5 @@
 import tensorflow as tf
-
+from tensorflow.python.client import device_lib
 
 def layer(input1, w_shape, b_shape):
     weight_init = tf.random_uniform_initializer(minval=0, maxval=10)
@@ -38,10 +38,18 @@ def test02():
         my_network(input01)
 
 def cpu_and_gpu():
+    print(device_lib.list_local_devices())  # 和系统相关，列举出device
+
     sess = tf.Session()
     a = tf.constant(2)
     b = tf.constant(3)
     multiply = tf.multiply(a, b)
     sess.run(multiply)
 
-cpu_and_gpu()
+
+def variable_name():
+    var = tf.Variable(tf.random_normal([32,3]), name='var_1')
+    print(var.name)  # 为什么会是var_1:0?
+
+
+variable_name()
