@@ -30,7 +30,7 @@ def data_test():
 def load_data(file_name, offset, size):  # 这个读取函数是和idx1-ubyte的格式相关的。
     #  根据起始值和unit的大小读取
     with gzip.open('my_load/' + file_name, 'rb') as f:
-        data = np.frombuffer(f.read(), np.uint8, offset=offset)
+        data = np.frombuffer(f.read(), np.uint8, offset=offset)  # 根据格式，就像ip数据报一样，去掉头文件，提取出有效信息。
     data = data.reshape(-1, size)
     return data
 
