@@ -230,6 +230,7 @@ class Convolution:
         return out
 # 前向传播理解了，后向传播怎么算，设计张量的卷积和求导，
     #通过reshape可以转化为何DNN一样的计算
+
     def backward(self, dout):
         FN, C, FH, FW = self.W.shape
         dout = dout.transpose(0,2,3,1).reshape(-1, FN)

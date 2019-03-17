@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90056c0d-d082-4b95-ad69-94de7019fba8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../deep_learning_primary/neural_network/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/.idea/package_one.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/c_road.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/c_route.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/car.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/cross.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/dispatch_cross.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/dispatch_on_road.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/dispatch_on_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/dispatch_straight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/huawei/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/learn_language/list_in_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/learn_language/use_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/learn_language/use_functools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/learn_tensor/cnn_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/learn_tensor/cnn_network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_one/learn_tensor/overview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deep_learning/common/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../deep_learning/common/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deep_learning_primary/neural_network/cnn_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../deep_learning_primary/neural_network/cnn_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_test/.idea/learn_python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_test/package01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/package_one/cv_ops/tensor_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_test/package_one/p_test01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_test/test01.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/learn_language/use_functools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/huawei/dispatch_on_road.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/huawei/dispatch_cross.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package_one/huawei/dispatch_straight.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/learn_language/use_collections.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/learn_language/list_in_dict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/huawei/dispatch_on_wait.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/huawei/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/huawei/c_road.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package_one/huawei/cross.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/package01/p_test01.py" />
+        <option value="$PROJECT_DIR$/package_test/tensor_test/tensor_cul.py" />
+        <option value="$PROJECT_DIR$/package_test/image_ops.py" />
+        <option value="$PROJECT_DIR$/test01.py" />
+        <option value="$PROJECT_DIR$/package_test/language_test/draw_lable.py" />
+        <option value="$PROJECT_DIR$/package_test/cv_ops/__init__.py" />
+        <option value="$PROJECT_DIR$/package_test/cv_ops/draw01.py" />
+        <option value="$PROJECT_DIR$/package_test/language_test/abc_test.py" />
+        <option value="$PROJECT_DIR$/package_test/language_test/collections_test.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_language/use_col.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_language/use_abc.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_tensor/tensor_cul.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_language/use_collections.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_language/use_os.py" />
+        <option value="$PROJECT_DIR$/package_one/cv_ops/image_ops.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_language/class_structure.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_language/use_functools.py" />
+        <option value="$PROJECT_DIR$/package_one/cv_ops/draw_lable.py" />
+        <option value="$PROJECT_DIR$/package_one/cv_ops/tensor_ops.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_tensor/network.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_tensor/overview.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_tensor/cnn_image.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/car.txt" />
+        <option value="$PROJECT_DIR$/package_one/huawei/test_data.txt" />
+        <option value="$PROJECT_DIR$/package_one/huawei/cross.txt" />
+        <option value="$PROJECT_DIR$/package_one/huawei/c_route.txt" />
+        <option value="$PROJECT_DIR$/package_one/learn_tensor/cnn_network.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/read_data.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/__init__.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/go_cross.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/go_straight.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/dispatch_on_wait.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/utils.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/dispatch_on_road.py" />
+        <option value="$PROJECT_DIR$/package_one/learn_language/list_in_dict.py" />
+        <option value="$PROJECT_DIR$/package_one/huawei/dispatch_straight.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1407" />
+    <option name="y" value="23" />
+    <option name="width" value="1405" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="package_one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="package_one" type="462c0819:PsiDirectoryNode" />
+              <item name="huawei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="package_one" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_language" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="package_one" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_tensor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/package_test/cv_ops" />
+      <recent name="$PROJECT_DIR$/package_test/language_test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.list_in_dict">
+    <configuration name="cnn_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package_one/learn_tensor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package_one/learn_tensor/cnn_image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cnn_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package_one/learn_tensor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package_one/learn_tensor/cnn_network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go_cross" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package_one/huawei" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package_one/huawei/dispatch_on_road.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_in_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package_one/learn_language" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package_one/learn_language/list_in_dict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="overview" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package_one/learn_tensor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package_one/learn_tensor/overview.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in use_collections.py" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <module name="learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package_one/learn_language" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/package_one/learn_language/use_collections.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="use_collections" type="tests" factoryName="Nosetests">
+      <module name="learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/anaconda3/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package_one/learn_language" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;use_collections&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Nosetests in use_collections.py" />
+      <item itemvalue="Python tests.use_collections" />
+      <item itemvalue="Python.overview" />
+      <item itemvalue="Python.cnn_network" />
+      <item itemvalue="Python.cnn_image" />
+      <item itemvalue="Python.go_cross" />
+      <item itemvalue="Python.list_in_dict" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.list_in_dict" />
+        <item itemvalue="Python.go_cross" />
+        <item itemvalue="Python.cnn_image" />
+        <item itemvalue="Python.cnn_network" />
+        <item itemvalue="Python.overview" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90056c0d-d082-4b95-ad69-94de7019fba8" name="Default Changelist" comment="" />
+      <created>1544447132716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544447132716</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_collections_test_py - 2019.03.08 at 09h 01m 37s.xml">
+      <configuration name="Nosetests in collections_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_collections_test_py - 2019.03.08 at 09h 02m 06s.xml">
+      <configuration name="Nosetests in collections_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_collections_test_py - 2019.03.08 at 09h 04m 44s.xml">
+      <configuration name="Nosetests in collections_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_use_collections_test_counter - 2019.03.08 at 14h 36m 24s.xml">
+      <configuration name="Nosetests for use_collections.test_counter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="use_collections - 2019.03.08 at 14h 39m 58s.xml">
+      <configuration name="use_collections" configurationId="tests" />
+    </history-entry>
+    <history-entry file="use_collections - 2019.03.08 at 14h 40m 16s.xml">
+      <configuration name="use_collections" configurationId="tests" />
+    </history-entry>
+    <history-entry file="use_collections - 2019.03.09 at 10h 23m 31s.xml">
+      <configuration name="use_collections" configurationId="tests" />
+    </history-entry>
+    <history-entry file="use_collections - 2019.03.09 at 10h 25m 27s.xml">
+      <configuration name="use_collections" configurationId="tests" />
+    </history-entry>
+    <history-entry file="use_collections - 2019.03.09 at 10h 25m 33s.xml">
+      <configuration name="use_collections" configurationId="tests" />
+    </history-entry>
+    <history-entry file="use_collections - 2019.03.09 at 10h 25m 37s.xml">
+      <configuration name="use_collections" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1407" y="23" width="1405" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53497165" visible="true" weight="0.18879056" />
+      <window_info id="Structure" order="1" sideWeight="0.46502835" side_tool="true" weight="0.31196582" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.10376135" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32866243" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3477707" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Run" order="3" weight="0.20870206" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31196582" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32611465" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32866243" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3477707" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///anaconda3/lib/python3.6/site-packages/matplotlib/backend_bases.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/numpy/_distributor_init.py" />
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/numpy/_globals.py" />
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/numpy/__init__.py" />
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/numpy/__config__.py" />
+    <entry file="file://$PROJECT_DIR$/matplotlib_test.py" />
+    <entry file="file://$PROJECT_DIR$/matplotlib.py" />
+    <entry file="file://$PROJECT_DIR$/未命名.ipynb" />
+    <entry file="file://$PROJECT_DIR$/image_ops.py.ipynb" />
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/matplotlib/backend_bases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47025">
+          <caret line="3151" column="11" selection-start-line="3151" selection-start-column="11" selection-end-line="3151" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/openpyxl/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/openpyxl/cell/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/cv_ops/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_tensor/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/p_test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_language/use_os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#50#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_language/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_language/use_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/cv_ops/use_matplotlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#50#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/cv_ops/draw01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/cv_ops/draw_lable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4533">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_language/class_structure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_tensor/tensor_cul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_tensor/overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/cv_ops/image_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_tensor/cnn_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/test_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/cv_ops/tensor_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/car.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/c_route.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_tensor/cnn_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/dispatch_cross.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/dispatch_on_road.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/dispatch_on_wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_language/use_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_language/use_functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/learn_language/list_in_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/c_road.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/cross.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_one/huawei/dispatch_straight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
