@@ -61,10 +61,36 @@ def sort_list():
         [13, 32, 34, 56],
         [11, 15, 32, 67],
     ]  # 更距第二列的值进行排序
-
+    ls3 = ls.copy()
     ls2 = [x[2] for x in ls]
-    ls.sort(key=lambda x1: x1[2])  # lambda表达式非常的方便,代替小函数
+    ls.sort(key=lambda x1: x1[2])[0]  # lambda表达式非常的方便,代替小函数,同时注意sort函数没有返回值，在原数据的基础上进行修改
     print(ls)
+    print(ls3)
 
+
+def index_list():
+    ls = [123, 13, 32, 13, 12, -1]  # 从0开始索引
+    ls_copy = ls.copy()
+    index1 = ls.index(123)
+    index0 = -1  # /没有修改就表示没有
+    if 9 in ls:
+        index0 = ls.index(9)  # 没有回报错，所以首先验证一下
+
+    print(index1)
+    print(index0)
+    print(ls_copy)
+    index3 = 42
+    if index3 < len(ls):  # 也要先判断一下索引是否超出了长度
+        print(ls[index3])
+
+def crud_list():
+    ls = [
+        [12, 21, 12, 100],
+        [13, 32, 34, 56],
+        [11, 15, 32, 67],
+    ]
+    sub_ls = ls[0]
+    sub_ls.pop(0)  # 对其原有对象的更改
+    print(ls)
 
 sort_list()

@@ -1,4 +1,3 @@
-
 '''
 车辆直行通过cross时的s（位置）,车辆的位置很重要。
 v1:道路1的限速，v2:道路2的限速，v:车辆的限速.u：车辆的实际速度。
@@ -13,6 +12,8 @@ v1:道路1的限速，v2:道路2的限速，v:车辆的限速.u：车辆的实�
  (道路id，道路长度，最高限速，车道数目，起始点id，终点id，是否双向)
  [car_id,s,channel，direction]，构造这个数据块，非常的重要。
 '''
+
+import math
 
 
 def read_table(file):
@@ -40,3 +41,60 @@ def init_status(road_with_car):
     for road_with_car_value in road_with_car.values():
         for record in road_with_car_value:
             record[4] = 0  # 重新变为等待调度状态。改变了传入的参数。
+
+
+def tt():
+    cross_data = read_table('eg_cross.txt')
+    for cross_id, cross_item in cross_data.items():
+        print(cross_id)
+
+
+def rotate_list(ls, idx):
+    length = len(ls)
+    ls1 = ls.copy()
+    ls1[0:length - idx] = ls[idx:length]
+    ls1[length - idx:length] = ls[0:idx]
+    return ls1
+
+
+# 返回0，1，2，3的顺序，这个方法有问题。
+def number_position(theta_rel):
+    sin = int(math.sin(theta_rel))
+    cos = int(math.cos(theta_rel))
+    if cos == 0:
+        if sin == 1:
+            return 1
+        else:
+            return 3
+    else:
+        if cos == 1:
+            return 0
+        else:
+            return 2
+
+
+def new_number_position(number, x, y, l):
+    if number == 0:
+        return [x + l, y]
+    if number == 1:
+        return [x, y + l]
+    if number == 2:
+        return [x - l, y]
+    if number == 3:
+        return [x, y - l]
+
+
+def get_road_id(ls, ls1):
+    for x in ls:
+        if x != -1:
+            for y in ls1:
+                if x == y:
+                    return x
+
+
+'''
+ls = [1232,23,89,1,32]
+idx = ls.index(23)
+ls2 =rotate_list(ls,idx)
+print(ls2)
+'''

@@ -1,4 +1,6 @@
-import package_one.huawei as hw
+import package_one.huawei.utils as utils
+import package_one.huawei.build_route as build_map
+import random
 
 '''
 1.先让能够上路的车上路。2.让能够到达终点的车到达终点（路口），并消失。3.调度在路上的车辆。
@@ -15,79 +17,95 @@ import package_one.huawei as hw
 
 def dispatch_on_road(t, car_data, route_data, road_data, road_with_car):
     # 先获取t-1时刻的状态。从1开始，0时刻都在原地
-
-    car_item_start = [car_item for car_item in car_data.values() if car_item[4] == t]  # 遍历字典,和列表的差异
-    print(car_item_start)
+    # 太多的车上路，就会死锁。
+    counter = 0
+    car_item_start_list = [car_item1 for car_item1 in car_data.values() if car_item1[4] == t]  # 遍历字典,和列表的差异
     # 车到达计划出发时间，可以出发，也可以等，简单模型中，直接出发,这样会堵塞。
 
-    for car_item in car_item_start:
+    print('car_number' + str(counter))
+    for car_item in car_item_start_list:
+
+        # 更距时间简单调节车流量
+        if t < 20 or t > 400:
+            if counter > 10:
+                break
+
+        else:
+            if counter > 12:
+                break
+
         car_id = car_item[0]
         road_id = route_data[car_id][2]  # 车辆第一段路id，
-        channel = road_data[road_id][3]
 
         start = road_data[road_id][4]  # 这条道路的正向起点
-        direction = 0
-        if start == car_item[1]:
-            direction = 1
+        direction = 0 if start == car_item[1] else 1  # 0表示同向
 
-        s = min(car_item[3], road_data[road_id][3])  # 可行的最大速度，还要看是否能走。不堵塞。
+        s = min(car_item[3], road_data[road_id][2])  # 可行的最大速度，还要看是否能走。不堵塞。
 
         if road_id not in road_with_car:  # 该道路没有车辆时
+
+            # 在这里构造了road_with_car数据
             road_with_car[road_id] = []
-            first_record = [car_item[0], s, s, 0, direction, 1]
+            first_record = [car_item[0], s, car_item[3], 0, direction, 1]
+
+            # road_with_car这个数据进行实时更新
+            counter += 1
             road_with_car[road_id].append(first_record)
+
+            # 上路后，从上路的列表中移除
+            car_item_start_list.remove(car_item)
             print(str(car_id) + '开始上路,一点都不拥堵')
             continue
 
         road_item = road_with_car[road_id]  # 获得道路的车况信息.
+        channel = road_data[road_id][3]
 
-        flag1 = False
-        flag2 = False
         for channel_i in range(channel):
 
             #  print("channel:"+str(channel_i))
-            # 字段的类型都是之前定义好的，更改一点，就可能影响整个程序。
-            channel_with_car = [record for record in road_item if
-                                record[2] == channel_i and record[3] == direction]
+            # 字段的类型都是之前定义好的，更改一点，就可能影响整个程序。road_item是一个列表中嵌套列表。
+            if len(road_item) == 0:
+                channel_with_car = []
+            else:
+                channel_with_car = [record for record in road_item if
+                                    record[3] == channel_i and record[4] == direction]
             if len(channel_with_car) == 0:  # 车道上没有车辆
-                record = [car_item[0], s, s, channel_i, direction, 1]
+                record = [car_item[0], s, car_item[3], channel_i, direction, 1]
+                counter += 1
                 road_with_car[road_id].append(record)
-                print(car_item)
+                car_item_start_list.remove(car_item)
                 print(str(car_id) + '开始上路,车道不拥堵')  # 考虑，这个要跳出多重循环
-                flag2 = True
                 break
 
-            print('cc:' + str(channel_with_car))
-            for record in channel_with_car:
-                if record[1] > s:
-                    # 如果有空就可以上路,车不是一个质点，要确定是以车头为坐标，还是以车尾为坐标,最终商定以车头为坐标。尽量按照最大速度出发。
-                    new_record = [car_item[0], s, s, channel_i, direction, 1]  # 符合条件，上路。
-                    road_with_car[road_id].append(new_record)
-                    print(str(car_id) + '开始上路, 车有点多')
-                    flag1 = True
-                    break
+            # print('cc:' + str(channel_with_car))
 
-            if flag1:
-                flag2 = True
+            # 车道上有车
+            channel_with_car.sort(key=lambda x: x[1])
+            record = channel_with_car[0]
+
+            if record[1] > 2 * s:
+                # 如果有空就可以上路,车不是一个质点，要确定是以车头为坐标，还是以车尾为坐标,最终商定以车头为坐标。尽量按照最大速度出发。
+                new_record = [car_item[0], s, car_item[3], channel_i, direction, 1]  # 符合条件，上路。
+                counter += 1
+                road_with_car[road_id].append(new_record)
+                car_item_start_list.remove(car_item)
+                print(str(car_id) + '开始上路, 车有点多')
                 break
-        if flag2:
-            continue
 
-        car_item[4] += 1  # 该道路所有车道都没有空闲，t时刻没有上路，则等待下一次，也可随机等待时间。
-
-    print("t时刻调度完毕")
-
-
-'''
-随着时间推进进行调度
-road_with_car_tt = dict()
-car_data = hw.read_table('car.txt')  # 将disk数据一次读入内存，可随意修改。
-route_data = hw.read_table('c_route.txt')
-road_data = hw.read_table('c_road.txt')  # 以road为id构建road_with_car的字典,名字要非常的直观。
-
-for t in range(4):
-    print(str(t) + '开始')
-    dispatch_on_road(t, car_data, route_data, road_data, road_with_car_tt)
+    for car_item in car_item_start_list:
+        # 什么情况下回延迟上路？
+        if car_item[3] >= 6:
+            car_item[4] += random.randint(10, 40)
+        else:
+            car_item[4] += random.randint(30, 60)
 
 
-'''
+def tt():
+    road_data = utils.read_table('road.txt')
+    cross_data = utils.read_table('cross.txt')
+    car_data = utils.read_table('car.txt')
+    route_data = build_map.build_route(road_data, cross_data, car_data)
+    road_with_car = dict()
+    dispatch_on_road(1, car_data, route_data, road_data, road_with_car)
+    print(road_with_car)
+# tt()
