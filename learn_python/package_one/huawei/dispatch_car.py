@@ -53,12 +53,6 @@ def dispatch_car_run(cross_data, road_data, route_data, road_with_car):
     for road_id in road_with_car:
         for record in road_with_car[road_id]:
             # 变成为调度的在状态
-            if record[5] == 0 :
-                print('发生了死锁')
-
-    for road_id in road_with_car:
-        for record in road_with_car[road_id]:
-            # 变成为调度的在状态
             record[5] = 0
 
 
@@ -99,8 +93,7 @@ def dispatch_straight(road_data, road_with_car):
 
                     # 接下来应该调度其后的车辆
                     max_s = record_pre[1] - record[1] - 1  # 车长为1
-                    if max_s < 0:
-                        print('why')  # 这句话没有执行到
+
                     record[1] += min(v, max_s)
                     record[5] = 1
                     record_pre = record
@@ -113,6 +106,7 @@ def dispatch_cross(road_data, cross_data, route_data, road_with_car):
     # 保证路口是按照cross_id排序的。
     for cross_id, cross_item in cross_data.items():
         road_list_init = cross_item[1:]  # 去掉路口id字段,路口的顺序
+
         road_list = [x for x in road_list_init if x != -1]
         road_list.sort()  # 从小到大的顺序
 
@@ -148,11 +142,8 @@ def dispatch_cross(road_data, cross_data, route_data, road_with_car):
                     road_with_car_item_channel_wait.sort(key=lambda x: x[1], reverse=True)
                     record = road_with_car_item_channel_wait[0]  # record不会再小于零了
 
-                    if record[1] > 20:
-                        print("s >20")
-
                     car_id = record[0]
-                    road_id_idx = route_data[car_id].index(road_id)
+                    road_id_idx = route_data[car_id][2:].index(road_id)+2
 
                     # 车辆的终点，直接入库。
                     if road_id_idx == len(route_data[car_id]) - 1:
@@ -164,7 +155,11 @@ def dispatch_cross(road_data, cross_data, route_data, road_with_car):
                         continue
 
                     #  从这里拆分出一个函数，
+                    if road_id == 5024:
+                        print('5024')
+
                     next_road_id = route_data[car_id][road_id_idx + 1]
+
                     go_cross(record, cross_id, road_list_init, road_id, next_road_id, road_with_car_item_channel_wait,
                              route_data, road_data, road_with_car, count)
 
@@ -178,7 +173,11 @@ def dispatch_cross(road_data, cross_data, route_data, road_with_car):
 def go_cross(record, cross_id, cross_list_init, road_id, next_road_id, road_with_car_item_channel_wait,
              route_data, road_data, road_with_car, count):
     start_idx = cross_list_init.index(road_id)
+    a = cross_list_init
+    b = next_road_id
+
     end_idx = cross_list_init.index(next_road_id)
+
     dlr = int(math.fabs(start_idx - end_idx))
 
     # D，直接通行

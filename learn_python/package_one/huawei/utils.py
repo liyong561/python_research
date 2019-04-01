@@ -43,12 +43,6 @@ def init_status(road_with_car):
             record[4] = 0  # 重新变为等待调度状态。改变了传入的参数。
 
 
-def tt():
-    cross_data = read_table('eg_cross.txt')
-    for cross_id, cross_item in cross_data.items():
-        print(cross_id)
-
-
 def rotate_list(ls, idx):
     length = len(ls)
     ls1 = ls.copy()
@@ -92,9 +86,9 @@ def get_road_id(ls, ls1):
                     return x
 
 
-'''
-ls = [1232,23,89,1,32]
-idx = ls.index(23)
-ls2 =rotate_list(ls,idx)
-print(ls2)
-'''
+def dictionary_file(dict1):
+    f = open('answer.txt', mode='w')
+    for key in dict1:
+        dict1[key].insert(0, key)
+        f.write(str(tuple(dict1[key])))  # 只能写str？
+        f.write('\n')

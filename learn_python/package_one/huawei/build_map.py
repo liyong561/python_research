@@ -137,9 +137,6 @@ def visit_graph(start_item, pre_item, start_road_id, cross_data, road_data, rout
     co_x1 = pre_item['cross_id_pos'][0]
     co_y1 = pre_item['cross_id_pos'][1]
 
-    if cross_id == 2:
-        print(cross_road__list)
-
     # 旧点在新点的哪个方位,co_x为参考点
     if co_x == co_x1:
         if co_y1 < co_y:

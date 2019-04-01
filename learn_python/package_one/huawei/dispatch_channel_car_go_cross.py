@@ -43,15 +43,17 @@ def car_go_cross_road(record, cross_id, road_id, next_road_id, road_with_car_ite
             # 注意这里x2的取值，正反向时s的值。
 
             x2 = next_record[1] - 1
-            if record[1] > 20:
-                print('s > 0')
 
             # 前方车辆为终止车辆，如果有空，就必须走
             if next_record[5] == 1:
 
                 # 两车之间没有间隙，寻找下一个车道。
                 if x1 == 0 and x2 == 0:
-                    print('可能存在死锁')
+                    # 发生了堵塞，该车不能行走，变为已调度状态。
+                    if next_channel_i == next_channel -1 :
+                        count.append(1)
+                        car_go_cross_channel(v1, v2, x1, x2, road_id, next_road_id, next_channel_i, next_road_direction,
+                                             road_with_car_item_channel_wait, road_with_car, road_data)
                     continue
 
                 else:

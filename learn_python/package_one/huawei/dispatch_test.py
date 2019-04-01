@@ -24,7 +24,7 @@ def dispatch_on_road(t, car_data, route_data, road_data, road_with_car):
         channel = road_data[road_id][3]
 
         start = road_data[road_id][4]  # 这条道路的正向起点
-        direction = 0 if start == car_item[1] else 1 # 0表示同向
+        direction = 0 if start == car_item[1] else 1  # 0表示同向
 
         s = min(car_item[3], road_data[road_id][3])  # 可行的最大速度，还要看是否能走。不堵塞。
 
@@ -32,7 +32,6 @@ def dispatch_on_road(t, car_data, route_data, road_data, road_with_car):
             road_with_car[road_id] = []
             first_record = [car_item[0], s, s, 0, direction, 1]
             road_with_car[road_id].append(first_record)
-            print(str(car_id) + '开始上路,一点都不拥堵')
             continue
 
         road_item = road_with_car[road_id]  # 获得道路的车况信息.
@@ -48,8 +47,6 @@ def dispatch_on_road(t, car_data, route_data, road_data, road_with_car):
             if len(channel_with_car) == 0:  # 车道上没有车辆
                 record = [car_item[0], s, s, channel_i, direction, 1]
                 road_with_car[road_id].append(record)
-                print(car_item)
-                print(str(car_id) + '开始上路,车道不拥堵')  # 考虑，这个要跳出多重循环
                 flag2 = True
                 break
 
@@ -59,7 +56,6 @@ def dispatch_on_road(t, car_data, route_data, road_data, road_with_car):
                     # 如果有空就可以上路,车不是一个质点，要确定是以车头为坐标，还是以车尾为坐标,最终商定以车头为坐标。尽量按照最大速度出发。
                     new_record = [car_item[0], s, s, channel_i, direction, 1]  # 符合条件，上路。
                     road_with_car[road_id].append(new_record)
-                    print(str(car_id) + '开始上路, 车有点多')
                     flag1 = True
                     break
 
@@ -74,16 +70,3 @@ def dispatch_on_road(t, car_data, route_data, road_data, road_with_car):
     print("t时刻调度完毕")
 
 
-'''
-随着时间推进进行调度
-road_with_car_tt = dict()
-car_data = hw.read_table('eg_car.txt')  # 将disk数据一次读入内存，可随意修改。
-route_data = hw.read_table('car_route.txt')
-road_data = hw.read_table('eg_road.txt')  # 以road为id构建road_with_car的字典,名字要非常的直观。
-
-for t in range(4):
-    print(str(t) + '开始')
-    dispatch_on_road(t, car_data, route_data, road_data, road_with_car_tt)
-
-
-'''

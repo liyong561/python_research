@@ -62,4 +62,10 @@ def reference_tt():
     print(ls1)  # ls1并没有失去引用
 
 
-eq_tt()
+def ll2():
+    ls1 = [12, 32, 323, 32]
+    a = ls1[2:][1]  # 可以连写
+    print(a)
+
+
+ll2()
