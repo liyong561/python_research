@@ -43,7 +43,7 @@ def extract_feature(directory, sample_count):
         features[i * batch_size:(i + 1) * batch_size] = features_batch
         labels[i * batch_size:(i + 1) * batch_size] = labels_batch
         i += 1
-        if (i +1)* batch_size >= sample_count:
+        if (i + 1) * batch_size >= sample_count:
             break
         # 从这里看相当于对数据进行了预处理。
     return features, labels

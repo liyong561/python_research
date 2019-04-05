@@ -1,2 +1,0 @@
-('country', 'china', 'canada', 'america')
-('income', 12, 32, 23)

@@ -1,4 +1,4 @@
-import  tensorflow as tf
+import tensorflow as tf
 
 
 def test_board():
@@ -13,7 +13,6 @@ def test_board():
         mul = tf.multiply(input1, add)
 
     with tf.Session() as sess:
-
         writer = tf.summary.FileWriter('logs/', sess.graph)  # 这句话到底干了什么，我们不得而知
         result = sess.run([add, mul])
         print(result)
@@ -22,4 +21,6 @@ def test_board():
         tf.summary.FileWriter函数必须在global_variables_initializer().run()
         函数之前调用，在重命名tensor对象之后调用。
         '''
+
+
 test_board()
