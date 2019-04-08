@@ -5,7 +5,7 @@ import tensorflow as tf
 def test_save(init=0):
     v1 = tf.Variable(tf.random_normal([3, 9]), name='var_v1')
     v2 = tf.Variable(tf.random_normal([4, 9]), name='var_v2')
-    save = tf.train.Saver()  # 还要指明放了什么东西吗？空值则表示保存所有变量
+    save = tf.train.Saver()  # 还要指明放了什     么东西吗？空值则表示保存所有变量
     sess = tf.Session()
     init = tf.variables_initializer([v1, v2])
     sess.run(init)  # 需要在会话中init才行。

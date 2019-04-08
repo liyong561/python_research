@@ -26,8 +26,9 @@ def test_2():
         print(sess.run(a))  # => [20 30]
 
 
-test_1()
-test_2()
+def main():
+    test_1()
+    test_2()
 
 
 if __name__ == '__main__()':  # __name__这个方法主要是用来import，.py文件执行时使用。
