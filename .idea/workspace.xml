@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6d7185b-fbe6-4866-bef3-1f7c5263d10e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning_primary/cv_ops/ndarray_ops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style_git.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/my_loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/use_vgg16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning_primary/statistic/gradient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning_primary/statistic/scipy_tt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_research.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_research.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_learning_primary/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_learning_primary/statistic/loss_gradient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectDetModels/models" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_learning_primary/cv_ops/tensor_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/cv_ops/tensor_ops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow/keras_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow/keras_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow/save_train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow/save_train_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow/tf_function_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow/tf_function_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_learning_primary/python_image/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_learning_primary/python_image/display_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_learning_primary/cv_ops/image_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/cv_ops/image_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style_git.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style_git.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_learning_primary/statistic/gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/statistic/gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_learning_primary/statistic/scipy_tt.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_primary/statistic/scipy_tt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,61 +22,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/use_vgg16.py">
+        <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="59" column="10" selection-start-line="58" selection-start-column="4" selection-end-line="66" selection-end-column="83" />
+            <state relative-caret-position="2145">
+              <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#61#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/lib/python3.6/site-packages/scipy/optimize/optimize.py">
+        <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/backend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="299" selection-start-line="299" selection-end-line="299" />
+            <state relative-caret-position="12600">
+              <caret line="881" selection-start-line="881" selection-end-line="881" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/lib/python3.6/codecs.py">
+        <entry file="file:///anaconda3/lib/python3.6/site-packages/scipy/optimize/lbfgsb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="266" selection-start-line="266" selection-end-line="266" />
+            <state relative-caret-position="2850">
+              <caret line="198" selection-start-line="198" selection-end-line="198" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning_primary/statistic/gradient.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning_primary/cv_ops/image_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file:///anaconda3/lib/python3.6/site-packages/scipy/optimize/lbfgsb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="327" selection-start-line="327" selection-end-line="327" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning_primary/statistic/scipy_tt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            <state relative-caret-position="668">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -108,24 +111,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/use_vgg16.py" />
+        <option value="$PROJECT_DIR$/deep_learning_primary/statistic/scipy_tt.py" />
+        <option value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy1.py" />
         <option value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style_git.py" />
         <option value="$PROJECT_DIR$/deep_learning_primary/statistic/gradient.py" />
-        <option value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/use_vgg16.py" />
+        <option value="$PROJECT_DIR$/deep_learning_primary/statistic/loss_gradient.py" />
+        <option value="$PROJECT_DIR$/deep_learning_primary/cv_ops/image_ops.py" />
+        <option value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy2.py" />
         <option value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-1440" />
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,6 +145,12 @@
               <item name="python_research" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_research" type="462c0819:PsiDirectoryNode" />
               <item name="deep_learning_primary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_research" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_research" type="462c0819:PsiDirectoryNode" />
+              <item name="deep_learning_primary" type="462c0819:PsiDirectoryNode" />
+              <item name="cv_ops" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_research" type="b2602c69:ProjectViewProjectNode" />
@@ -154,11 +168,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deep_learning_primary/statistic" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,8 +190,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.art_style">
-    <configuration name="art_style" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.art_style (1)">
+    <configuration name="art_style (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_research" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,28 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_research" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning_primary/statistic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_primary/statistic/gradient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="use_vgg16" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="art_style" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_research" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,7 +224,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/use_vgg16.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_primary/statistic/loss_gradient.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,11 +233,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="copy1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_research" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="copy2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_research" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_ops" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_research" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning_primary/cv_ops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_primary/cv_ops/image_ops.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.art_style (1)" />
+      <item itemvalue="Python.art_style" />
+      <item itemvalue="Python.copy1" />
+      <item itemvalue="Python.copy2" />
+      <item itemvalue="Python.image_ops" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.art_style (1)" />
+        <item itemvalue="Python.image_ops" />
+        <item itemvalue="Python.copy2" />
         <item itemvalue="Python.art_style" />
-        <item itemvalue="Python.use_vgg16" />
-        <item itemvalue="Python.gradient" />
+        <item itemvalue="Python.copy1" />
       </list>
     </recent_temporary>
   </component>
@@ -258,15 +327,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1440" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="-1440" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15983027" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3694779" visible="true" weight="0.25179857" />
+      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36553526" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4830287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6325524" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28976572" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -277,15 +346,15 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.6305221" weight="0.1332853" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15983027" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3694779" visible="true" weight="0.18403909" />
+      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28851175" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4830287" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2882883" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2957958" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -296,67 +365,71 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.6305221" weight="0.1332853" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file:///anaconda3/lib/python3.6/site-packages/scipy/optimize/lbfgsb.py</url>
-          <line>327</line>
-          <option name="timeStamp" value="1" />
+          <line>285</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///anaconda3/lib/python3.6/site-packages/scipy/optimize/lbfgsb.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/scipy/optimize/optimize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="299" selection-start-line="299" selection-end-line="299" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning_primary/statistic/gradient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style_git.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1443">
-          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/use_vgg16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="59" column="10" selection-start-line="58" selection-start-column="4" selection-end-line="66" selection-end-column="83" />
+        <state relative-caret-position="-844">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/dd_at_iteration_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/dd_at_iteration_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/dd_at_iteration_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style_git.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/my_loss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="285">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -364,37 +437,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="2858" selection-start-line="2858" selection-end-line="2858" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning_primary/statistic/scipy_tt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="605">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style.py">
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="98">
+          <caret line="3701" selection-start-line="3701" selection-end-line="3701" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/scipy/optimize/optimize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="298" selection-start-line="298" selection-end-line="298" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/statistic/loss_gradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/copy2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+          <folding>
+            <element signature="e#61#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12600">
+          <caret line="881" selection-start-line="881" selection-end-line="881" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///anaconda3/lib/python3.6/site-packages/scipy/optimize/lbfgsb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        <state relative-caret-position="2850">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/statistic/gradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/cv_ops/image_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_primary/learn_tensorflow2/art_style.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

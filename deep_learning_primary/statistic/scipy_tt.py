@@ -48,6 +48,8 @@ def loss_fn2(x):
     res = x1 * w
     return np.mean(res)
 
+def grad(x):
+    pass
 
 def tt_scale():
     y = lambda x: x ** 2 + 10 * x + 4
@@ -67,7 +69,7 @@ def tt_vector():
 
     x = np.random.randint(2, 23, (3, 3, 3)).astype('float64')
     print(x)
-    a= optimize.fmin_bfgs(loss_fn, x)
+    a= optimize.fmin_l_bfgs_b(loss_fn, x)
     print(a)
 
 

@@ -13,8 +13,8 @@ import time
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~##
 
 cImPath = '/Users/yongli/Pictures/flower.jpg'
-sImPath = '/Users/yongli/Pictures/flower02.jpg'
-genImOutputPath = '/Users/yongli/Pictures/flower03.jpg'
+sImPath = ''
+genImOutputPath = ''
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~##
 ## Image processing

@@ -6,11 +6,12 @@ object detetion也将是一个复杂的工程，代码量可能很长，需要�
 '''
 
 def image_ops(file_name):
-    im = Image.open(file_name)
+    im = Image.open(file_name).resize((224,224))
     # im.show() # image对象的方法
-    size = im.size
-    im2 = im.resize(size)
     print('大小：'+str(im.size)+'，通道：'+im.mode)  # just a porperty,string, not tuple.
+    x =np.array(np.zeros((2,4)))
+    x.reshape((8))
+    print(x.shape)
     return im  # 和java的语言区分开来
 
 

@@ -1,10 +1,4 @@
-import tensorflow.keras.applications.vgg16 as vgg16
-import tensorflow.keras.models as models
-from PIL import Image
-import numpy as np
-import matplotlib.pyplot as plot
-import tensorflow.keras.backend as K
-import tensorflow as tf
+ç
 from scipy import optimize
 
 
@@ -63,8 +57,10 @@ def visualize_grad():
     conv_base = vgg16.VGG16(include_top=False, weights='imagenet')
     print(len(conv_base.layers))
     output1 = conv_base.layers[10].output
+    loss =K.mean(output1)
+    print(loss)
 
-    grad_fn = K.function([conv_base.input], tf.gradients(output1, conv_base.input))
+    grad_fn = K.function([conv_base.input], tf.gradients(loss, conv_base.input))
     x = im_arr.astype('float32')
     h1, w1 = x.shape[1:3]
     results = np.zeros((3 * h1, 4 * w1, 3))
@@ -104,7 +100,7 @@ class Loss_grad:
         self.l = None
         self.g = None
         self.loss = K.mean(self.output1[:, :, :, self.filter_idx])
-
+        print('loss' +str(self.loss))
         self.grads = K.gradients(self.loss, [self.conv_base.input])[0]
         self.grads /= K.sqrt(K.mean(K.square(self.grads)) + 1e-5)
 
@@ -136,9 +132,9 @@ class Loss_grad:
 
         im = Image.open('/Users/yongli/Pictures/flower.jpeg')
         im = im.resize((224, 224))
-        im_arr = np.array(im).astype('float32')
+        im_arr = np.array(im).astype('float64')
         im_arr_flatten = im_arr.flatten()
-        x  = np.zeros((1,224,224,3)).astype('float32').flatten()
+        x  = np.zeros((1,224,224,3)).astype('float64').flatten()
         x = optimize.fmin_l_bfgs_b(self.loss_fn, im_arr_flatten,fprime=self.grad_fn, maxiter=40,disp=True)
         print(type(x))
 
@@ -151,5 +147,4 @@ class Loss_grad:
 ld = Loss_grad()
 ld.scipy_optimizer_input()
 '''
-
 visualize_grad()
